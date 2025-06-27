@@ -1,3 +1,8 @@
+CREATE TABLE Authors(
+    author_id INT PRIMARY KEY,
+    author_name VARCHAR(215)
+);
+
 INSERT INTO Authors (author_id, author_name)
 VALUES
     (1, 'Chinua Achebe'),
